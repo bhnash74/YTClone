@@ -1,7 +1,0 @@
-AIzaSyCrjoYeEVdfHQhfKc0o_c-_S5J0Hb8GApU
-
-This is for searching for a video based on a query:
-• https://www.googleapis.com/youtube/v3/search?q={SEARCH QUERY HERE}&key={API KEY HERE}
-
-This is for searching for related videos:
-• https://www.googleapis.com/youtube/v3/search?relatedToVideoId={VIDEO ID HERE}&type=video&key={API KEY HERE}
