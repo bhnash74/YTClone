@@ -3,7 +3,6 @@ const Joi = require('joi');
 
 const replySchema = new mongoose.Schema({
     text: {type: String,  required: true, minlength:1, maxlength:500},
-    commentId: {type: mongoose.ObjectId, ref: 'Comment'},
     timeStamp:{type: Date, default: Date.now()},
 });
 const Reply = mongoose.model('Reply', replySchema);
